@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Fresh|Store</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header class="main-header">
+            <nav class="main-nav nav">
+               
+            </nav>
+            <h1 class="store-name band-name-large">Fresh Shop</h1>
+        </header>
+        <section class="container content-section">
+            <h2 class="section-header">Items</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Banana</span>
+                    <img class="shop-item-image" src="Images/banana.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$2.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Lentils</span>
+                    <img class="shop-item-image" src="Images/lentils.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$10.99</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Blueberries</span>
+                    <img class="shop-item-image" src="Images/blueberries (1).png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$9.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">oranges</span>
+                    <img class="shop-item-image" src="Images/oranges.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$9.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">Veggies</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Spinach</span>
+                    <img class="shop-item-image" src="Images/spinach.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$10.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Brocolli</span>
+                    <img class="shop-item-image" src="Images/brocolli.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$6.99</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+        <footer class="page-footer">
+            <p>
+              &copy; <span id="date"></span>
+              <span class="footer-logo">FreshStore</span>
+            </p>
+          </footer>
+        <script src="store.js"></script>
+    </body>
+</html>
